@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:onClick="toJson"
+        android:textAllCaps="false"
+        android:text="toJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:onClick="fromJson"
+        android:textAllCaps="false"
+        android:text="fromJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:onClick="jsonTree"
+        android:textAllCaps="false"
+        android:text="jsonTree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:onClick="joinJsonObj"
+        android:textAllCaps="false"
+        android:text="joinJsonObjToJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:onClick="joinJsonObjFromJson"
+        android:textAllCaps="false"
+        android:text="joinJsonObjFromJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="joinArrayListToJson"
+        android:textAllCaps="false"
+        android:text="joinArrayListToJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="JsonToArryListBean"
+        android:textAllCaps="false"
+        android:text="JsonToArryListBean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:onClick="listBeanFromJson"
+        android:textAllCaps="false"
+        android:text="listBeanFromJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="exponse"
+        android:textAllCaps="false"
+        android:text="exponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

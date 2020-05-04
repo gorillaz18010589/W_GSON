@@ -1,0 +1,19 @@
+{
+  "address": {
+    "city": "taipei",
+    "country": "taiwan"
+  },
+  "age": "18",
+  "email": "fioefei@gmail.com",
+  "name": "kidd",
+  "skill": [
+    {
+      "nickname": "magic",
+      "nid": 1
+    },
+    {
+      "nickname": "smart",
+      "nid": 2
+    }
+  ]
+}
